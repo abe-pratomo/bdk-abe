@@ -1,1 +1,19 @@
+section {
+  border: 2px solid blue;
+  display: block;
+}
 
+.subjudul {
+  border: 2px blueviolet;
+  display: inline;
+}
+
+p {
+  border: 2px chocolate;
+  display: inline-block;
+}
+
+#judul {
+  color: navy;
+  text-align: center;
+}
