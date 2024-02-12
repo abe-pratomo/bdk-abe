@@ -4,11 +4,11 @@ section {
 }
 
 .subjudul {
-  border: 2px blueviolet;
+  border: 2px rebeccapurple;
   display: inline;
 }
 
-p {
+section p {
   border: 2px chocolate;
   display: inline-block;
 }
