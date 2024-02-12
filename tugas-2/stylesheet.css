@@ -1,6 +1,6 @@
 section {
   border: 2px solid blue;
-  display: block;
+  display: inline-block;
 }
 
 .subjudul {
@@ -10,7 +10,7 @@ section {
 
 p {
   border: 2px solid chocolate;
-  display: inline-block;
+  display: block;
   padding: .5em;
 }
 
