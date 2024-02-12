@@ -1,11 +1,11 @@
 section {
-  border: 2px solid blue;
   display: inline-block;
 }
 
 .subjudul {
   border: 2px solid rebeccapurple;
   display: inline;
+  padding: .5em;
 }
 
 p {
