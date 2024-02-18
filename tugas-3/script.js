@@ -4,8 +4,8 @@ function output() {
 
   let x = Math.floor(Math.random() * 1);
   if (x === 0) {
-    document.getElementById("result").innerHTML = x + " " + name1 + " dan " + name2 + " cocok!";
+    document.getElementById("result").innerHTML = name1 + " dan " + name2 + " cocok!";
   } else {
-    document.getElementById("result").innerHTML = x + " " + name1 + " dan " + name2 + " tidak cocok :')";
+    document.getElementById("result").innerHTML = name1 + " dan " + name2 + " tidak cocok :')";
   }
 }
