@@ -7,7 +7,7 @@
   <body>
     <h1 id="title">Check Your Match!</h1>
     <h2>Lihat apakah kamu dan dia cocok!</h2>
-    <form onsubmit="output()" action="">
+    <form id="myForm">
       <div>
         <label for="name1">Masukkan nama kamu: </label>
         <input type="text" name="name1" id="name1" required />
@@ -16,11 +16,11 @@
         <label for="name2">Masukkan nama doi kamu: </label>
         <input type="text" name="name2" id="name2" required />
         <br /><br />
-        <input type="submit" value="Check your match!" />
+        <button type="button" onclick="output()">Check your match!</button>
       </div>
     </form>
 
-    <h3 id="result"></h3>
+    <div id="result"></div>
     
     <script src="script.js"></script>
   </body>
