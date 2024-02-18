@@ -3,11 +3,13 @@ body {
 }
 
 #title {
+  font-family: "Lucida Handwriting";
   color: cornsilk;
   text-align: center;
 }
 
 h2, form {
+    font-family: "Helvetica";
     color: white;
     text-align: center;
 }
