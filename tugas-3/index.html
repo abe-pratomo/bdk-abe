@@ -7,7 +7,7 @@
   <body>
     <h1 id="title">Check Your Match!</h1>
     <h2>Lihat apakah kamu dan dia cocok!</h2>
-    <form id="myForm">
+    <form onsubmit="output()" action="https://abe-pratomo.github.io/bdk-abe/tugas-3">
       <div>
         <label for="name1">Masukkan nama kamu: </label>
         <input type="text" name="name1" id="name1" required />
@@ -16,7 +16,7 @@
         <label for="name2">Masukkan nama doi kamu: </label>
         <input type="text" name="name2" id="name2" required />
         <br /><br />
-        <button type="submit" onclick="output()">Check your match!</button>
+        <button type="submit">Check your match!</button>
       </div>
     </form>
 
