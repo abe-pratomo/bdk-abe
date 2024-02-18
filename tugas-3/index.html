@@ -1,1 +1,22 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Check Your Match!</title>
+    <link rel="stylesheet" href="stylesheet.css" />
+  </head>
+  <body>
+    <h1 id="title">Check Your Match!</h1>
+    <h2>Lihat apakah kamu dan dia cocok!</h2>
+    <form onsubmit="output()" action="">
+      <label for="name1">Masukkan nama kamu: </label>
+      <input type="text" name="name1" id="name1" required />
+      <label for="name2">Masukkan nama pasangan kamu: </label>
+      <input type="text" name="name2" id="name2" required />
+      <button type="submit" value="Check your match!" />
+    </form>
 
+    <h3 id="result"></h3>
+    
+    <script src="script.js"></script>
+  </body>
+</html>
