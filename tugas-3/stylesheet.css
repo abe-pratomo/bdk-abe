@@ -1,4 +1,8 @@
-#judul {
+body {
+  background-color: crimson;
+}
+
+#title {
   color: cornsilk;
   text-align: center;
 }
