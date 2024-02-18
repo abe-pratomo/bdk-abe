@@ -9,3 +9,8 @@ function output() {
     document.getElementById("result").innerHTML = name1 + " dan " + name2 + " tidak cocok :')";
   }
 }
+
+document.getElementById("myForm").addEventListener("submit", function (event) {
+  event.preventDefault();
+  output();
+}
