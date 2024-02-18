@@ -10,7 +10,8 @@ function output() {
   }
 }
 
-document.getElementById("myForm").addEventListener("submit", function (event) {
+document.getElementById("myForm").addEventListener("submit", function (event)
+{
   event.preventDefault();
   output();
 }
