@@ -1,3 +1,6 @@
+name1 = document.getElementById("name1");
+name2 = document.getElementById("name2");
+
 function output()
 {
   let x = Math.random();
