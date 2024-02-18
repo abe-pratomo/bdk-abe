@@ -1,5 +1,6 @@
 body {
-  background-image: linear-gradient(crimson, deeppink);
+  background: linear-gradient(crimson, deeppink);
+  background-attachment: fixed;
 }
 
 #title {
